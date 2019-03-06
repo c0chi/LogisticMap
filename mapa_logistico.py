@@ -120,7 +120,7 @@ Otros ejemplos:
 mapa(x0=0.2,  R=3.1)  # {0.55801413, 0.76456652}
 mapa(x0=0.5,  R=3.25) # {0.49526517, 0.81242714}
 mapa(x0=0.2,  R=3.3)  # {0.47942702, 0.82360328}
-*texto en cursiva*```
+```
 """
 
 mapa(x0=0.2,  R=3.3)  # {0.47942702, 0.82360328}
@@ -185,14 +185,23 @@ Pasado un límite ( R ~ 3.57 ),  el período se vuelve infinito y el sistema se 
 
 mapa(x0=0.4999,R=3.95, n=100)
 mapa(x0=0.5001,R=3.95, n=100)
+plt.show()
+"""Aca vemos como un pequeño cambio en las condiciones iniciales cambian completamente el mapa luego de un tiempo:
 
-"""Aca vemos como un pequeño cambio en las condiciones iniciales cambian completamente el mapa:
-
-```
-mapa(R=4   , x0=0.2, n=50)
-mapa(R=4   , x0=0.20000001, n=50)
-```
 """
 
-mapa(R=4   , x0=0.2, n=50)
-mapa(R=4   , x0=0.20001, n=50)
+
+
+
+x1 = mapa(x0=0.4999,R=3.95, plot=False)
+x2 = mapa(x0=0.5001,R=3.95, plot=False)
+
+plt.ylim(0, 1)
+plt.ylabel('x(t)')
+plt.xlabel('t')
+plt.title('R = 4.00')
+plt.plot(x1, '-', linewidth=0.8, color='red')
+plt.plot(x2, '-', linewidth=0.8, color='blue')
+plt.show()
+
+

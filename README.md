@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # LogisticMap
 
 ![Chaos](https://img.shields.io/badge/-Chaos-grey.svg)
@@ -25,11 +24,8 @@ puede depender mucho de las condiciones iniciales
 
 Notebook:
 =======
-# logistic_map
-chaos
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/c0chi/logistic_map/blob/desarrollo/mapa_logistico.ipynb)
 
 
->>>>>>> 0d361725af9dba845dd70424535c9d551c858c65
 https://colab.research.google.com/github/c0chi/logistic_map/blob/desarrollo/mapa_logistico.ipynb

@@ -1,9 +1,7 @@
-# reservo un directorio
-tmp/
-
-# ignorar personal
 .DS_Store
 .idea/
+tmp/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

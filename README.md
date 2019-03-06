@@ -1,4 +1,4 @@
-tmpmapa_logistico.ipynbREADME.mdmapa_logistico.py# LogisticMap
+# LogisticMap
 
 ![Chaos](https://img.shields.io/badge/-Chaos-grey.svg)
 ![Colab](https://img.shields.io/badge/-Colab-yellow.svg?style=flat)
@@ -23,5 +23,6 @@ puede depender mucho de las condiciones iniciales
 
 ### Notebook
 
-(https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/c0chi/logistic_map/blob/desarrollo/mapa_logistico.ipynb)
+Sandbox:
+https://colab.research.google.com/github/c0chi/LogisticMap/blob/master/mapa_logistico.ipynb
 

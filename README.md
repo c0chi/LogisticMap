@@ -1,4 +1,4 @@
-# LogisticMap
+tmpmapa_logistico.ipynbREADME.mdmapa_logistico.py# LogisticMap
 
 ![Chaos](https://img.shields.io/badge/-Chaos-grey.svg)
 ![Colab](https://img.shields.io/badge/-Colab-yellow.svg?style=flat)
